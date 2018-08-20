@@ -1,0 +1,9 @@
+# default values for blocks
+default height:25 width:50 stroke:color(white)
+
+# block definitions
+bdef symbol:p hit_points:1 fill:color(RGB(225,160,200))
+bdef symbol:f hit_points:3 fill:color(RGB(225,160,200)) fill-2:image(block_images/flowers.jpg) fill-3:image(block_images/flowers2.jpeg)
+
+# spacers definitions
+sdef symbol:- width:50

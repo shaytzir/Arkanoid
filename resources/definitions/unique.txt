@@ -1,0 +1,83 @@
+
+# Level 3
+# The good old final four level with an upgraded background
+
+START_LEVEL
+level_name: Space
+ball_velocities:30,550, 60,550 70,550
+background:image(background_images/space.jpeg)
+paddle_speed:650
+paddle_width:180
+block_definitions:definitions/space_blocks_definitions.txt
+blocks_start_x:50
+blocks_start_y:80
+row_height:25
+num_blocks:65
+START_BLOCKS
+-
+-jnmsmnjnmsmnj--
+-
+-bbbbbbbbbbbbb--
+-ppppppppppppp--
+-bbbbbbbbbbbbb--
+-jnmsmnjnmsmnj--
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+
+START_LEVEL
+level_name: Pineapple's Life
+ball_velocities:45,550 50,550
+background:image(background_images/pineapples.jpg)
+paddle_speed:700
+paddle_width:300
+block_definitions:definitions/pineapple_block_definitions.txt
+blocks_start_x:40
+blocks_start_y:80
+row_height:30
+num_blocks:82
+START_BLOCKS
+o-o-o-o-o-o-o-o-o-o-o-o-o
+-
+ydydydydydydyd
+dydydydydydydy
+ydydydydydydyd
+dydydydydydydy
+-
+-o-o-o-o-o-o-o-o-o-o-o-o-o
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 1
+# Image Background and images for blocks
+
+START_LEVEL
+level_name:Cliche
+ball_velocities:45,550 -45,550 -30,550 30,550
+background:image(background_images/greens.jpeg)
+paddle_speed:680
+paddle_width:200
+block_definitions:definitions/flower_blocks_definitions.txt
+blocks_start_x:50
+blocks_start_y:100
+row_height:25
+num_blocks:68
+START_BLOCKS
+-
+---fff--fff--
+--fppf--fppf-
+-fppppffppppf
+-fppppffppppf
+--fppppppppf-
+---fppppppf--
+----fppppf---
+-----fppf----
+------ff-----
+END_BLOCKS
+END_LEVEL
+

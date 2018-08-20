@@ -1,0 +1,10 @@
+# block definitions
+bdef symbol:j width:50 height:50 hit_points:1 fill:image(block_images/jupiter.png)
+bdef symbol:m width:50 height:50 hit_points:1 fill:image(block_images/moon.png)
+bdef symbol:n width:50 height:50 hit_points:1 fill:image(block_images/neptune.png)
+bdef symbol:s width:50 height:50 hit_points:1 fill:image(block_images/saturn.png)
+bdef symbol:p width:50 height:25 hit_points:2 fill-2:color(RGB(126,78,170)) fill:color(RGB(151,99,233)) stroke:color(RGB(73,28,171)) 
+bdef symbol:b width:50 height:25 fill:color(RGB(73,28,171)) hit_points:1 stroke:color(RGB(126,78,170))
+
+# spacers definitions
+sdef symbol:- width:30
